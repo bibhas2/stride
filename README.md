@@ -8,6 +8,8 @@ This project is based on https://github.com/HackEPFL/rust-workshop-slides.git.
 
 # Getting Started
 ## Installation Guide
+Install Rust by following the [official guide](http://doc.rust-lang.org/guide.html#installing-rust) if you have not already done so.
+
 Clone all the required repos:
 
 ```bash
