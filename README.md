@@ -21,7 +21,7 @@ git clone https://github.com/ajaxorg/ace-builds.git
 **Important:** Make sure that you clone ``ace-builds`` inside of the ``stride`` folder.
 
 ## Verify Installation
-You can build the sample presentation file to see if everything is in order.
+You can build the sample presentation file ``slides.md`` to see if everything is in order.
 
 From the ``stride`` folder, run:
 
