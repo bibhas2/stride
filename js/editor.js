@@ -13,11 +13,11 @@ window.addEventListener('load', function () {
 	function execCode(editor, resultArea) {
 		var req = new XMLHttpRequest();
 		var payload = {
-			version: "master",
+			version: "stable",
 			optimize: "0",
 			code: editor.getValue()
 		};
-		req.open('POST', "http://play.rust-lang.org/evaluate.json", true);
+		req.open('POST', "https://play.rust-lang.org/evaluate.json", true);
 		req.onload = function(e) {
 			if (req.readyState !== 4) {
 				return;
